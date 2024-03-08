@@ -8,7 +8,7 @@ st.set_page_config(page_title = "Ninkatec", page_icon = ":syringe:", layout = 'w
 
 key_dict = json.loads(st.secrets["textkey"])
 creds = service_account.Credentials.from_service_account_info(key_dict)
-df = firestrore.Client(credentials=creds, project='streamlit-pds')
+df = firestrore.Client(credentials=creds, project='streamlit-pds2')
 syringes_data = []
 # Create a reference
 ##doc_ref = db.collection("posts").document("Google")
